@@ -51,7 +51,7 @@
     <version>3.0.0-M7</version>
        <configuration>
        <suiteXmlFiles>
-         <suiteXmlFile>testngParallel.xml</suiteXmlFile>
+         <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
        </configuration>
  </plugin>
