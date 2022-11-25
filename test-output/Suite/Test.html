@@ -1,0 +1,281 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 24 22:25:56 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108338 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='day3.MyFirstTestNGTest2.createAccount()'><b>createAccount</b><br>Test class: day3.MyFirstTestNGTest2</td>
+<td></td>
+<td>0</td>
+<td>day3.MyFirstTestNGTest2@229c6181</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day4.DDTExample.myTest()'><b>myTest</b><br>Test class: day4.DDTExample<br>Parameters: samplemukesh@gmail.com, Mukesh1234</td>
+<td></td>
+<td>6</td>
+<td>day4.DDTExample@5824a83d</td></tr>
+<tr>
+<td title='day3.AdditionalAttributes.verifyTitle()'><b>verifyTitle</b><br>Test class: day3.AdditionalAttributes<br>Test method: This test will just check title is matching or not</td>
+<td></td>
+<td>0</td>
+<td>day3.AdditionalAttributes@428640fa</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day3.SmokeTest.verifyForgotPasswordLink()'><b>verifyForgotPasswordLink</b><br>Test class: day3.SmokeTest</td>
+<td></td>
+<td>0</td>
+<td>day3.SmokeTest@7b36aa0c</td></tr>
+<tr>
+<td title='day1.SeleniumScript2.Test2()'><b>Test2</b><br>Test class: day1.SeleniumScript2</td>
+<td></td>
+<td>6</td>
+<td>day1.SeleniumScript2@27f981c6</td></tr>
+<tr>
+<td title='day4.DDTExample.myTest()'><b>myTest</b><br>Test class: day4.DDTExample<br>Parameters: samplemukesh1@gmail.com, Mukesh1234</td>
+<td></td>
+<td>6</td>
+<td>day4.DDTExample@5824a83d</td></tr>
+<tr>
+<td title='day3.SmokeTest.verifyTitle()'><b>verifyTitle</b><br>Test class: day3.SmokeTest</td>
+<td></td>
+<td>0</td>
+<td>day3.SmokeTest@7b36aa0c</td></tr>
+<tr>
+<td title='assignments.OrangeHRM.Test11()'><b>Test11</b><br>Test class: assignments.OrangeHRM</td>
+<td></td>
+<td>47</td>
+<td>assignments.OrangeHRM@4686afc2</td></tr>
+<tr>
+<td title='day3.AdditionalAttributes.verifyURL()'><b>verifyURL</b><br>Test class: day3.AdditionalAttributes<br>Test method: This test will just check url is matching or not</td>
+<td></td>
+<td>0</td>
+<td>day3.AdditionalAttributes@428640fa</td></tr>
+<tr>
+<td title='day3.SmokeTest.verifyURL()'><b>verifyURL</b><br>Test class: day3.SmokeTest</td>
+<td></td>
+<td>0</td>
+<td>day3.SmokeTest@7b36aa0c</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day3.MyFirstTestNGTest2.deleteAccount()'><b>deleteAccount</b><br>Test class: day3.MyFirstTestNGTest2</td>
+<td></td>
+<td>0</td>
+<td>day3.MyFirstTestNGTest2@229c6181</td></tr>
+<tr>
+<td title='day4.ReadingFile.testData()'><b>testData</b><br>Test class: day4.ReadingFile</td>
+<td></td>
+<td>0</td>
+<td>day4.ReadingFile@25641d39</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day2.HandleAutoSuggestions.Test6()'><b>Test6</b><br>Test class: day2.HandleAutoSuggestions</td>
+<td></td>
+<td>10</td>
+<td>day2.HandleAutoSuggestions@1b11171f</td></tr>
+<tr>
+<td title='day4.DDTExample2.myTest()'><b>myTest</b><br>Test class: day4.DDTExample2<br>Parameters: sample9@gmail.com, Mukesh1234</td>
+<td></td>
+<td>3</td>
+<td>day4.DDTExample2@1e0b4072</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day4.DDTExample.myTest()'><b>myTest</b><br>Test class: day4.DDTExample<br>Parameters: sample9@gmail.com, Mukesh1234</td>
+<td></td>
+<td>2</td>
+<td>day4.DDTExample@5824a83d</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day4.DDTExample2.myTest()'><b>myTest</b><br>Test class: day4.DDTExample2<br>Parameters: samplemukesh@gmail.com, Mukesh1234</td>
+<td></td>
+<td>2</td>
+<td>day4.DDTExample2@1e0b4072</td></tr>
+<tr>
+<td title='day1.SeleniumScript.Test1()'><b>Test1</b><br>Test class: day1.SeleniumScript</td>
+<td></td>
+<td>8</td>
+<td>day1.SeleniumScript@ffaa6af</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day3.MyFirstTestNGTest3.logOutFromApplication()'><b>logOutFromApplication</b><br>Test class: day3.MyFirstTestNGTest3</td>
+<td></td>
+<td>0</td>
+<td>day3.MyFirstTestNGTest3@65c7a252</td></tr>
+<tr>
+<td title='day4.DDTExample.myTest()'><b>myTest</b><br>Test class: day4.DDTExample<br>Parameters: samplemukesh1@gmail.com, Mukesh1234</td>
+<td></td>
+<td>2</td>
+<td>day4.DDTExample@5824a83d</td></tr>
+<tr>
+<td title='day3.MyFirstTestNGTest2.logOutFromApplication()'><b>logOutFromApplication</b><br>Test class: day3.MyFirstTestNGTest2</td>
+<td></td>
+<td>0</td>
+<td>day3.MyFirstTestNGTest2@229c6181</td></tr>
+<tr>
+<td title='day2.HandleDynamicAlert.Test7()'><b>Test7</b><br>Test class: day2.HandleDynamicAlert</td>
+<td></td>
+<td>14</td>
+<td>day2.HandleDynamicAlert@1151e434</td></tr>
+<tr>
+<td title='day3.AdditionalAttributes.verifyForgotPasswordLink()'><b>verifyForgotPasswordLink</b><br>Test class: day3.AdditionalAttributes<br>Test method: This test will just password reset is present or not</td>
+<td></td>
+<td>0</td>
+<td>day3.AdditionalAttributes@428640fa</td></tr>
+<tr>
+<td title='day3.SmokeTest.verifySocialMediaCount()'><b>verifySocialMediaCount</b><br>Test class: day3.SmokeTest</td>
+<td></td>
+<td>0</td>
+<td>day3.SmokeTest@7b36aa0c</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day4.DDTExample2.myTest()'><b>myTest</b><br>Test class: day4.DDTExample2<br>Parameters: samplemukesh1@gmail.com, Mukesh1234</td>
+<td></td>
+<td>2</td>
+<td>day4.DDTExample2@1e0b4072</td></tr>
+<tr>
+<td title='day3.MyFirstTestNGTest3.login()'><b>login</b><br>Test class: day3.MyFirstTestNGTest3<br/>
+<a href="#Output-271151366" onClick='toggleBox("Output-271151366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-271151366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-271151366">
+Login Done<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>day3.MyFirstTestNGTest3@65c7a252</td></tr>
+<tr>
+<td title='day4.DDTExample2.myTest()'><b>myTest</b><br>Test class: day4.DDTExample2<br>Parameters: samplemukesh1@gmail.com, Mukesh1234</td>
+<td></td>
+<td>4</td>
+<td>day4.DDTExample2@1e0b4072</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day1.SeleniumScript3.Test3()'><b>Test3</b><br>Test class: day1.SeleniumScript3</td>
+<td></td>
+<td>18</td>
+<td>day1.SeleniumScript3@4b8ee4de</td></tr>
+<tr>
+<td title='day3.SameTestMultipleTimes.createUser()'><b>createUser</b><br>Test class: day3.SameTestMultipleTimes</td>
+<td></td>
+<td>0</td>
+<td>day3.SameTestMultipleTimes@537f60bf</td></tr>
+<tr>
+<td title='day2.HandleAlert.Test5()'><b>Test5</b><br>Test class: day2.HandleAlert</td>
+<td></td>
+<td>13</td>
+<td>day2.HandleAlert@4d154ccd</td></tr>
+<tr>
+<td title='day3.MyFirstTestNGTest2.login()'><b>login</b><br>Test class: day3.MyFirstTestNGTest2</td>
+<td></td>
+<td>0</td>
+<td>day3.MyFirstTestNGTest2@229c6181</td></tr>
+</table><p>
+</body>
+</html>

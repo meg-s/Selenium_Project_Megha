@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "ParallelExecutionGrid" thread-count="2" parallel="tests" >
+  <test name="Test1">
+  <parameter name="bName" value="Chrome"/>
+    <parameter name="bVersion" value="105.0"/>
+    <parameter name="oName" value="Windows"/>
+    <parameter name="oVersion" value="10"/>
+    <classes>
+      <class name="day5.ParallelExecutionGrid"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+    <parameter name="bName" value="Firefox"/>
+    <parameter name="bVersion" value="latest"/>
+    <parameter name="oName" value="Windows"/>
+    <parameter name="oVersion" value="10"/>
+    <classes>
+      <class name="day5.ParallelExecutionGrid"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test3">
+    <parameter name="bName" value="Edge"/>
+    <parameter name="bVersion" value="100.0"/>
+    <parameter name="oName" value="Windows"/>
+    <parameter name="oVersion" value="10"/>
+    <classes>
+      <class name="day5.ParallelExecutionGrid"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test4">
+    <parameter name="bName" value="Chrome"/>
+    <parameter name="bVersion" value="102.0"/>
+    <parameter name="oName" value="OS X"/>
+    <parameter name="oVersion" value="Ventura"/>
+    <classes>
+      <class name="day5.ParallelExecutionGrid"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test5">
+    <parameter name="bName" value="Firefox"/>
+    <parameter name="bVersion" value="102.0"/>
+    <parameter name="oName" value="OS X"/>
+    <parameter name="oVersion" value="Ventura"/>
+    <classes>
+      <class name="day5.ParallelExecutionGrid"/>
+    </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
