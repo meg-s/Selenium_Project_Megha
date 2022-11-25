@@ -5,7 +5,6 @@
     <classes>
       <class name="day5.SeleniumGridDemo"/>
       <class name="day1.SeleniumScript"/>
-      <class name="day1.SeleniumScript3"/>
       <class name="day1.SeleniumScript2"/>
       <class name="day2.HandleAutoSuggestions"/>
       <class name="day5.testInHeadMode"/>
