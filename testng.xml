@@ -3,17 +3,13 @@
 <suite thread-count="4" parallel="classes" name="Suite">
   <test thread-count="4" parallel="classes" name="Test">
     <classes>
-      <class name="day5.SeleniumGridDemo"/>
       <class name="day1.SeleniumScript"/>
       <class name="day1.SeleniumScript2"/>
       <class name="day2.HandleAutoSuggestions"/>
-      <class name="day5.testInHeadMode"/>
-      <class name="day5.SelectorsHub"/>
       <class name="day2.HandleDynamicAlert"/>
       <class name="day3.AdditionalAttributes"/>
       <class name="day4.ReadingFile"/>
       <class name="day3.SmokeTest"/>
-      <class name="day5.ParallelExecutionGrid"/>
       <class name="day4.DDTExample"/>
       <class name="day3.SameTestMultipleTimes"/>
       <class name="day3.MyFirstTestNGTest3"/>
